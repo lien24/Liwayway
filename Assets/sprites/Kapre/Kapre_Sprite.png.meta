@@ -1,0 +1,774 @@
+fileFormatVersion: 2
+guid: d71c51559cd743f458fedfac5761fa67
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kapreidle1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2512
+        width: 176
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c692c65883eb0542965e1f91aa502bb
+      internalID: 1967468025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapreidle2
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 2511
+        width: 176
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de2da5a220459542a05cc129d6e5d3b
+      internalID: -1938654949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapreidle3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2511
+        width: 176
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1cb1e9e178ea6409aeda9779b9cda1
+      internalID: -1523451520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapreidle4
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 2511
+        width: 176
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97da0e9527ce494bb0dacead541f729
+      internalID: -98807268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreRun1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2211
+        width: 176
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3f16c046e3bfe4784a19516c5ade01
+      internalID: 1954536909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreRun2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2210
+        width: 161
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321691f99c2b78340816421c49215dea
+      internalID: 935690410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreRun3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2210
+        width: 193
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bfdd487616fb244a042bf4e814ccb6
+      internalID: 1123662571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreRun4
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 2210
+        width: 130
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b70ac374ea04784392cd1365b8b0cd5
+      internalID: 1556689669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreRun5
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2226
+        width: 166
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94319b41131846f4e95f88cb58e35267
+      internalID: -2132450521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreRun6
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 2212
+        width: 139
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aae5855213172543a0dfa75e0bac104
+      internalID: 230176490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreRun7
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 2213
+        width: 193
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b2fd95e56320d42a8030c76f16274a
+      internalID: 823659758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreAttack1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1911
+        width: 176
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458a3d702cdd89046a2a20bc8fa3d9ec
+      internalID: -1399757904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreAttack2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1911
+        width: 141
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78092d26428b0db45aa4a7383f890ac0
+      internalID: -1329924947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreAttack3
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1911
+        width: 148
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c57081301dce448b8fd57ee5a16428
+      internalID: 2138513742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreAttack4
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1911
+        width: 139
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7bed5014f2634419af2a95df4282e5
+      internalID: 1676154204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreAttack5
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1911
+        width: 129
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb32dd129670e74b976d8bbfd9fbc3f
+      internalID: 1351617366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreAttack6
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1911
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19670abcef5305449a76efdb5f19fab
+      internalID: -1135835524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreAttack7
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1912
+        width: 140
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734157559a4ed834089a6e779eea18fd
+      internalID: -1526765733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreHurt1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1611
+        width: 176
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dccff4719a4f743ab11f059f692092
+      internalID: -116858472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreHurt2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1610
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7338a4ace3dd443958f4653fb050b4
+      internalID: 32159438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreHurt3
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1609
+        width: 154
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1233d1700bd2b47b63bd9c8886f23f
+      internalID: 1041759698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreHurt4
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1609
+        width: 161
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8200018765f624644a6a41a901963e68
+      internalID: 1065096938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreDie1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1312
+        width: 176
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edd3587664e9bb4d8899df573b3063a
+      internalID: 1085946131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreDie2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1313
+        width: 160
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43e22134d195ec43a4cca3515e8ecf0
+      internalID: -196323335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreDie3
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1315
+        width: 181
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d524bdaff3d97b040ae39d1b9ba1f673
+      internalID: -1769535057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreDie4
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1316
+        width: 238
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d590c4b058bfe4a8919d93e5afa3c5
+      internalID: -2034733846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreDie5
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1335
+        width: 269
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a702984cc95e11c44bd856863f124498
+      internalID: -578191863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreDie6
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1355
+        width: 272
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3126bc6f45917489167c2566cfd40e
+      internalID: 316594304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreDie7
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1350
+        width: 271
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20a84d32a0f66c449a3dcf1d49456ab
+      internalID: -1268330412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KapreDie8
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1352
+        width: 272
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93f2ac1c5f661344a4d382a76294ef6
+      internalID: -734857316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fd18df7a88be29c448a7b24ab24b14ea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KapreAttack1: -1399757904
+      KapreAttack2: -1329924947
+      KapreAttack3: 2138513742
+      KapreAttack4: 1676154204
+      KapreAttack5: 1351617366
+      KapreAttack6: -1135835524
+      KapreAttack7: -1526765733
+      KapreDie1: 1085946131
+      KapreDie2: -196323335
+      KapreDie3: -1769535057
+      KapreDie4: -2034733846
+      KapreDie5: -578191863
+      KapreDie6: 316594304
+      KapreDie7: -1268330412
+      KapreDie8: -734857316
+      KapreHurt1: -116858472
+      KapreHurt2: 32159438
+      KapreHurt3: 1041759698
+      KapreHurt4: 1065096938
+      KapreRun1: 1954536909
+      KapreRun2: 935690410
+      KapreRun3: 1123662571
+      KapreRun4: 1556689669
+      KapreRun5: -2132450521
+      KapreRun6: 230176490
+      KapreRun7: 823659758
+      Kapreidle1: 1967468025
+      Kapreidle2: -1938654949
+      Kapreidle3: -1523451520
+      Kapreidle4: -98807268
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
