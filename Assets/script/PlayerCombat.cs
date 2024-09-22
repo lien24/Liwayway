@@ -8,14 +8,28 @@ public class PlayerCombat : MonoBehaviour
     // Update is called once per frame
 
     public Transform AttackPoint;
-    public float AttackRange = 0.5f;
     public LayerMask EnemyLayer;
+
+    public float AttackRange = 0.5f;
+    public int attackDamage = 40;
+
+    public float attackRate = 3f;
+    float nextAttackTime = 0f;
+
+
     void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space))
+    {   
+        if (Time.time >= nextAttackTime) 
         {
-            Attack();
+            if(Input.GetKeyDown(KeyCode.Space))
+                {
+                    Attack();
+                    nextAttackTime = Time.time + 1f / attackRate;
+                    
+
+                }
         }
+
     }
 
     void Attack()
@@ -30,7 +44,7 @@ public class PlayerCombat : MonoBehaviour
         //damage them   
         foreach (Collider enemy in hitEnemies)
         {
-            Debug.Log(" Aray ko boss " + enemy.name);
+           enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }
 
     }
