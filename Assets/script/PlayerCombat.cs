@@ -56,9 +56,7 @@ public class PlayerCombat : MonoBehaviour
 
         Gizmos.DrawWireSphere(AttackPoint.position, AttackRange);
 
-        // Visualize the attack range in the scene view
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(AttackPoint.position, AttackRange);
+     
     }
 
 }
