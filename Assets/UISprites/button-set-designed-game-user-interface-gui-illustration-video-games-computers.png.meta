@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: 64f33fc69bd3dad478abda247d0302a2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 643
+        width: 986
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845ede907854f4a42b0c7bb2f367b93f
+      internalID: -1335626590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_1
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1160
+        width: 239
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4698e6dfaa0c1440ad1e0a8ec35308d
+      internalID: 1476965061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_2
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1161
+        width: 239
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854c84cad3a2abe4a8728302514a9515
+      internalID: 685066650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_3
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 839
+        width: 239
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb157ce7faa0e740b3131c45646e360
+      internalID: -522488827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_4
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 842
+        width: 239
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0207db24ea7eee4da6acf218f458f09
+      internalID: 2045647779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 395
+        width: 459
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cfdacce9d6b0b4099d77a8396105a3
+      internalID: -650275212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_6
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 395
+        width: 459
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea15c550fc806645b039fd4aa434c5d
+      internalID: 28315568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_7
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 510
+        width: 239
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2351c9a3a0b5bc42b76229782109687
+      internalID: -1833971173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_8
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 532
+        width: 239
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b0ad406338aaa4cb5ca5d8c041034a
+      internalID: 2061580567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_9
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 516
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa61efda659f0b8408beb3915063648c
+      internalID: -1738777224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 163
+        width: 459
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872542f8d9b66d34281742cb9a373114
+      internalID: -87491122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play1
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 163
+        width: 459
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91eab44bc78b50a4490b860d7dc08693
+      internalID: 1366844906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_12
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 166
+        width: 239
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62fda7ea6c0938479d05788ecee14a7
+      internalID: -149490499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-set-designed-game-user-interface-gui-illustration-video-games-computers_13
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 167
+        width: 239
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37f3f61738b5f148be84675ebfb4b39
+      internalID: -100038241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 48e0147a3bdf9eb408186e40e6c3b651
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Play1: 1366844906
+      Play2: -87491122
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_0: -1335626590
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_1: 1476965061
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_12: -149490499
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_13: -100038241
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_2: 685066650
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_3: -522488827
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_4: 2045647779
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_5: -650275212
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_6: 28315568
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_7: -1833971173
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_8: 2061580567
+      button-set-designed-game-user-interface-gui-illustration-video-games-computers_9: -1738777224
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
