@@ -25,6 +25,8 @@ public class Enemy : MonoBehaviour
     private Rigidbody rb;
     private Collider enemyCollider;
 
+    private Vector3 initialScale;  // Store the initial scale of the enemy
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -33,6 +35,8 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         enemyCollider = GetComponent<Collider>();
 
+        // Store the initial scale
+        initialScale = transform.localScale;
 
         // If player isn't assigned, try to find player by tag
         if (player == null)
@@ -80,6 +84,19 @@ public class Enemy : MonoBehaviour
 
         // Ensure movement is smooth
         rb.MovePosition(Vector3.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime));
+
+
+
+        // Flip the enemy based on movement direction
+        if (direction.x < 0) // Moving to the right
+        {
+            transform.localScale = new Vector3(initialScale.x, initialScale.y, initialScale.z);  // Face right
+        }
+        else if (direction.x > 0) // Moving to the left
+        {
+            transform.localScale = new Vector3(-initialScale.x, initialScale.y, initialScale.z); // Face left
+        }
+
     }
 
     void AttackPlayer()

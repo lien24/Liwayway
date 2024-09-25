@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: fb99471d79fa6724aa77741cd789b0dd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: runF1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 4986
+        width: 360
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2a2d88bd3f078419ce92cd5e0e6ab2
+      internalID: 201253406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runF2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 5003
+        width: 368
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c98b57c71dd6b4fbce7a0d3639d79b
+      internalID: 155745214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runF3
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 4987
+        width: 361
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6d71d7ffb342d4a86f80e0d2375b8b
+      internalID: 441731859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runF4
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 5005
+        width: 363
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e90e4db443a6f4698e19b140bc66e1
+      internalID: 160015392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleF1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 4363
+        width: 374
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bade6894dfc5e784d9b650e11a045a15
+      internalID: 304522730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleF2
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4360
+        width: 368
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f87cc6fb7fed743b1dd896182e1969
+      internalID: -714732690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleF3
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 4354
+        width: 366
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134606344f883da44b910552c8b08354
+      internalID: 972020289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleF4
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 4355
+        width: 363
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ac3f59dd995f0439e9943b57f37b7f
+      internalID: 1052660859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleF5
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 4359
+        width: 366
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b3d020afdbaa645ab02cb8f6550f0c
+      internalID: 1395577945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleF6
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 4360
+        width: 368
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a91a8781a5b4447b9a49836a85a5fb
+      internalID: -1106128192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleF7
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 4363
+        width: 372
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7672e978b640a0a4bbe071928e4836d9
+      internalID: 149541959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3698
+        width: 377
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3f3d860a6a1ce47942508cf376f5fe
+      internalID: 303444372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3698
+        width: 374
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2800ca4f977467c44b938d366ae3a70e
+      internalID: -2133768655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF3
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 3698
+        width: 374
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a179c36c1fc2074aa3253dfdb7a9ae8
+      internalID: -1922131245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF4
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 3696
+        width: 374
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968dc958ddeda444497cf88be4af24ff
+      internalID: -2075763838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF5
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 3699
+        width: 374
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6901d28f0cf75947ac0a9aff5bb651e
+      internalID: -329593148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF6
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 3699
+        width: 374
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70cc36e853fb8c4ebb11dfc28a96df0
+      internalID: -702199613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF7
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 3701
+        width: 372
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5302b36b4040e45b54df4eb54e68b9
+      internalID: 201225149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF8
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 3700
+        width: 374
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa2f58bf3ca5104ab2564dec9186dd9
+      internalID: 1816724200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF9
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 3700
+        width: 374
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b20c2ea2932104198296440217a764
+      internalID: -512744260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 3048
+        width: 373
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b4d363922d9a546a05786700a52c27
+      internalID: -870492369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF11
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 3045
+        width: 374
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b78306907926340b75b1ec2977f6e6
+      internalID: -1333386608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF12
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 3045
+        width: 375
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac6f065e47610346a5767304d4233c6
+      internalID: -1246516572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF13
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3045
+        width: 375
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f70e9dc1f2a9e4c8845dfc6cd2cfe8
+      internalID: -160192189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtF14
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 3045
+        width: 375
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae80bebc9cf4a9d42afa538886f5e20b
+      internalID: -460503231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2397
+        width: 407
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bcd299421562641a5f15b51b4314c5
+      internalID: -425340113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF2
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2399
+        width: 402
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8958b64aba9c9cf4d89f14a957e310e6
+      internalID: 781721799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 2402
+        width: 402
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8bec52bcb8bf745beaea5ac0c48dfc
+      internalID: 918674865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF4
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2405
+        width: 399
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d831d5a533de27a4e90a410156305547
+      internalID: 947553465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF5
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 2402
+        width: 403
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9a210bf9104cf4bbe2e89083dce946
+      internalID: 1951329308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF6
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2402
+        width: 402
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95e1207bba18de4590d56a5951d1209
+      internalID: -90967852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF7
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 2402
+        width: 401
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e31867dce6bfd4a9c14f73f4ecda48
+      internalID: 832700427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF8
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 2402
+        width: 402
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9205d8994178c334699054edeb396290
+      internalID: -787511583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF9
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 2402
+        width: 403
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52549f7109eef67468e8e229fc1f0a1e
+      internalID: -793520208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF10
+      rect:
+        serializedVersion: 2
+        x: 3841
+        y: 2405
+        width: 399
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addc16b0ad5a42e48922576193fba763
+      internalID: -2078004791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1773
+        width: 402
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63089668b5855d843a3c0719473ffacb
+      internalID: 358430190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF12
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1771
+        width: 404
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b466065a44a444b96bbf912083a914
+      internalID: -792301719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackF13
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1768
+        width: 406
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ce43812f6371c438a492c534fad88d
+      internalID: -43304641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1019
+        width: 371
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e4a07c96884c14e944f219c2890bb7
+      internalID: 2080215362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF2
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1016
+        width: 369
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eeaa93f2af98b044b6e96604937fdef
+      internalID: 1312341671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF3
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1013
+        width: 381
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a142b3428f968474d98fbac8c0eb56be
+      internalID: -2003206209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF4
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1005
+        width: 411
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba55dbb753486c42ac22e718e0fbbd2
+      internalID: -137782857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF5
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 1002
+        width: 435
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489685883705c8d49ac43d316aeea7cc
+      internalID: -1986688980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF6
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 995
+        width: 455
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5660f5ae8a187804399a157b4a9fd561
+      internalID: -1119316342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF7
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 959
+        width: 479
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cce5245c7c06f4d9b0f574847e2106
+      internalID: 2123079287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF8
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 928
+        width: 521
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3ce6135ce6ae44d9809013c963c16c
+      internalID: -67795877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 277
+        width: 513
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c20b418ef16ba44593a9005798fbbcd
+      internalID: 726777660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF10
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 191
+        width: 594
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fece4039e393747ad5ef4ff3adaf8c
+      internalID: 723745564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF11
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 204
+        width: 564
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1728e4e918c1c904db9e28b73f8b6756
+      internalID: 474086414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF12
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 197
+        width: 569
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71282277f13839343a588bec4c70c608
+      internalID: -1946210657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF13
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 201
+        width: 562
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e146aecca98fe6f4da507ba0555ada56
+      internalID: -1423882728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dieF14
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 201
+        width: 558
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1e0c3e0a5231c41977b720470d296a
+      internalID: -249389781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8ede07da2a1018744ab450d9a224ccab
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      COMPLETEdarkfairy_0: 553429742
+      COMPLETEdarkfairy_10: -943492153
+      COMPLETEdarkfairy_7: 638453323
+      attackF1: -425340113
+      attackF10: -2078004791
+      attackF11: 358430190
+      attackF12: -792301719
+      attackF13: -43304641
+      attackF2: 781721799
+      attackF3: 918674865
+      attackF4: 947553465
+      attackF5: 1951329308
+      attackF6: -90967852
+      attackF7: 832700427
+      attackF8: -787511583
+      attackF9: -793520208
+      dieF1: 2080215362
+      dieF10: 723745564
+      dieF11: 474086414
+      dieF12: -1946210657
+      dieF13: -1423882728
+      dieF14: -249389781
+      dieF2: 1312341671
+      dieF3: -2003206209
+      dieF4: -137782857
+      dieF5: -1986688980
+      dieF6: -1119316342
+      dieF7: 2123079287
+      dieF8: -67795877
+      dieF9: 726777660
+      hurtF1: 303444372
+      hurtF10: -870492369
+      hurtF11: -1333386608
+      hurtF12: -1246516572
+      hurtF13: -160192189
+      hurtF14: -460503231
+      hurtF2: -2133768655
+      hurtF3: -1922131245
+      hurtF4: -2075763838
+      hurtF5: -329593148
+      hurtF6: -702199613
+      hurtF7: 201225149
+      hurtF8: 1816724200
+      hurtF9: -512744260
+      idleF1: 304522730
+      idleF2: -714732690
+      idleF3: 972020289
+      idleF4: 1052660859
+      idleF5: 1395577945
+      idleF6: -1106128192
+      idleF7: 149541959
+      runF1: 201253406
+      runF2: 155745214
+      runF3: 441731859
+      runF4: 160015392
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
