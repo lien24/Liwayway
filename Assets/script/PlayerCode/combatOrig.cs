@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCombat : MonoBehaviour
+public class combatOrig : MonoBehaviour
 {
-   public Animator animator;
+    public Animator animator;
     // Update is called once per frame
 
     public Transform AttackPoint;
@@ -18,17 +18,17 @@ public class PlayerCombat : MonoBehaviour
 
 
     void Update()
-    {   
-        if (Time.time >= nextAttackTime) 
+    {
+        if (Time.time >= nextAttackTime)
         {
-            if(Input.GetKeyDown(KeyCode.Space))
-                {
-                    Attack();
-                    nextAttackTime = Time.time + 1f / attackRate;
-                    
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Attack();
+                nextAttackTime = Time.time + 1f / attackRate;
 
-                }
-        }   
+
+            }
+        }
 
     }
 
@@ -38,25 +38,23 @@ public class PlayerCombat : MonoBehaviour
         animator.SetTrigger("Attack");
 
         //detect enemies ir range of attack
-        Collider [] hitEnemies = Physics.OverlapSphere (AttackPoint.position, AttackRange, EnemyLayer);
-
+        Collider[] hitEnemies = Physics.OverlapSphere(AttackPoint.position, AttackRange, EnemyLayer);
 
         //damage them   
         foreach (Collider enemy in hitEnemies)
         {
-           enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+            enemy.GetComponent<EnemyOrig>().TakeDamage(attackDamage);
         }
 
     }
 
     private void OnDrawGizmos()
     {
-        if(AttackPoint == null) 
+        if (AttackPoint == null)
             return;
 
         Gizmos.DrawWireSphere(AttackPoint.position, AttackRange);
 
-     
-    }
 
+    }
 }
