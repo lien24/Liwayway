@@ -27,6 +27,9 @@ public class Enemy : MonoBehaviour
 
     private Vector3 initialScale;  // Store the initial scale of the enemy
 
+    // Add reference to the AudioSource component
+    private AudioSource enemyAudio; 
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -37,6 +40,9 @@ public class Enemy : MonoBehaviour
 
         // Store the initial scale
         initialScale = transform.localScale;
+
+        // Get the AudioSource component attached to the enemy
+        enemyAudio = GetComponent<AudioSource>();
 
         // If player isn't assigned, try to find player by tag
         if (player == null)
@@ -155,6 +161,14 @@ public class Enemy : MonoBehaviour
         // Disable gravity and make the Rigidbody kinematic so it doesn't fall
         rb.useGravity = false;
         rb.isKinematic = true;
+
+        // Stop the enemy's audio when it dies
+        if (enemyAudio != null)
+        {
+            enemyAudio.loop = false;  // Ensure looping is turned off
+            enemyAudio.Stop();
+        }
+
 
         // Disable this script to stop further enemy actions
         this.enabled = false;
