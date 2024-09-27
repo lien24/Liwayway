@@ -20,13 +20,23 @@ public class PlayerCombat : MonoBehaviour
     private Rigidbody rb;
     private Collider playerCollider;
 
+    public HealthBars healthBar;      // Reference to the health bar UI
+
+    public Canvas healthBarCanvas;   // Reference to the Canvas containing the health bar UI
+
+
     void Start()
     {
         currentHealth = maxHealth;   // Initialize player health
 
+        healthBar.UpdateHealth((float)currentHealth / maxHealth);  // Initialize the health bar
+
+
         // Get Rigidbody and Collider components
         rb = GetComponent<Rigidbody>();
         playerCollider = GetComponent<Collider>();
+
+        
     }
 
     void Update()
@@ -64,6 +74,9 @@ public class PlayerCombat : MonoBehaviour
         // Play hurt animation
         animator.SetTrigger("Hurt");
 
+        // Update the health bar UI
+        healthBar.UpdateHealth((float)currentHealth / maxHealth);
+
         // Check if player is dead
         if (currentHealth <= 0)
         {
@@ -93,7 +106,8 @@ public class PlayerCombat : MonoBehaviour
         // Disable this script to stop further enemy actions
         this.enabled = false;
 
-
+        // Hide the health bar canvas
+        healthBarCanvas.enabled = false;  // Disable the health bar UI
     }
 
     private void OnDrawGizmosSelected()
