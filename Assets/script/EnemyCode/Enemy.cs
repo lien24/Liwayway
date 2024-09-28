@@ -27,12 +27,26 @@ public class Enemy : MonoBehaviour
 
     private Vector3 initialScale;  // Store the initial scale of the enemy
 
+    public HealthBars healthBar;    // Reference to the enemy's health bar UI
+
+    public Transform Canvas;        // Reference to the canvas (child object of the enemy)
+
+    public Canvas healthBarCanvas;   // Reference to the Canvas containing the health bar UI
+
+
+
     // Add reference to the AudioSource component
     private AudioSource enemyAudio; 
+
+
 
     void Start()
     {
         currentHealth = maxHealth;
+
+        // Initialize the health bar UI
+        healthBar.UpdateHealth((float)currentHealth / maxHealth);
+
 
         // Get Rigidbody and Collider components
         rb = GetComponent<Rigidbody>();
@@ -97,10 +111,12 @@ public class Enemy : MonoBehaviour
         if (direction.x < 0) // Moving to the right
         {
             transform.localScale = new Vector3(initialScale.x, initialScale.y, initialScale.z);  // Face right
+            Canvas.localScale = new Vector3(1.5f, Canvas.localScale.y, Canvas.localScale.z);  // Set Canvas X scale to 1.5
         }
         else if (direction.x > 0) // Moving to the left
         {
             transform.localScale = new Vector3(-initialScale.x, initialScale.y, initialScale.z); // Face left
+            Canvas.localScale = new Vector3(-1.5f, Canvas.localScale.y, Canvas.localScale.z);  // Set Canvas X scale to -1.5
         }
 
     }
@@ -142,6 +158,9 @@ public class Enemy : MonoBehaviour
     {
         currentHealth -= damage;
 
+        // Update health bar UI
+        healthBar.UpdateHealth((float)currentHealth / maxHealth);
+
         // Play hurt animation
         animator.SetTrigger("Hurt");
 
@@ -172,6 +191,9 @@ public class Enemy : MonoBehaviour
 
         // Disable this script to stop further enemy actions
         this.enabled = false;
+
+        // Hide the health bar canvas
+        healthBarCanvas.enabled = false;  // Disable the health bar UI
     }
 
     private void OnDrawGizmosSelected()
