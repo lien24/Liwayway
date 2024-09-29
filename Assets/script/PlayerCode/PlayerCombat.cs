@@ -25,7 +25,12 @@ public class PlayerCombat : MonoBehaviour
 
     public Canvas healthBarCanvas;   // Reference to the Canvas containing the health bar UI
 
-    public float deathDelay = 3f;  // Time delay before restarting the scene
+    public float deathDelay = 5f;  // Time delay before restarting the scene
+
+    // Reference to PlayerAnimCon script (on a different GameObject)
+    public GameObject playerAnimConObject;
+    private PlayerAnimCon playerAnimConScript;
+
 
     void Start()
     {
@@ -38,7 +43,12 @@ public class PlayerCombat : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         playerCollider = GetComponent<Collider>();
 
-        
+        // Access the PlayerAnimCon script from the playerAnimConObject
+        if (playerAnimConObject != null)
+        {
+            playerAnimConScript = playerAnimConObject.GetComponent<PlayerAnimCon>();
+        }
+
     }
 
     void Update()
@@ -68,6 +78,7 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+
     // This function allows the player to take damage from enemies
     public void TakeDamage(int damage)
     {
@@ -88,6 +99,8 @@ public class PlayerCombat : MonoBehaviour
 
     void Die()
     {
+       
+
         // Play die animation
         animator.SetBool("IsDead", true);
 
@@ -108,8 +121,18 @@ public class PlayerCombat : MonoBehaviour
         // Disable this script to stop further enemy actions
         this.enabled = false;
 
+
+        // Disable the PlayerAnimCon script to stop flipping
+        if (playerAnimConScript != null)
+        {
+            playerAnimConScript.enabled = false;
+        }
+
+
         // Hide the health bar canvas
         healthBarCanvas.enabled = false;  // Disable the health bar UI
+
+
 
         //SceneManager.LoadScene(2);
 

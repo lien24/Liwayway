@@ -54,7 +54,7 @@ public class EnemyManager : MonoBehaviour
     IEnumerator LoadWinningScene()
     {
         // Optionally add a delay before showing the winning scene
-        yield return new WaitForSeconds(2f);  // Adjust the delay as needed
+        yield return new WaitForSeconds(5f);  // Adjust the delay as needed
 
         // Load the winning scene (replace with the appropriate scene index or name)
         SceneManager.LoadScene(3);  // Change "WinningScene" to your actual scene name or index

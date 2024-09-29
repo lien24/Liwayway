@@ -49,5 +49,4 @@ public class PlayerAnimCon : MonoBehaviour
             transform.localScale = scale;
         }
     }
-
 }
