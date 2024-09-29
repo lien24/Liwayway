@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -32,6 +33,8 @@ public class Enemy : MonoBehaviour
     public Transform Canvas;        // Reference to the canvas (child object of the enemy)
 
     public Canvas healthBarCanvas;   // Reference to the Canvas containing the health bar UI
+
+    
 
 
 
@@ -194,7 +197,13 @@ public class Enemy : MonoBehaviour
 
         // Hide the health bar canvas
         healthBarCanvas.enabled = false;  // Disable the health bar UI
+
+
+       
     }
+
+    // Coroutine to delay scene loading
+  
 
     private void OnDrawGizmosSelected()
     {

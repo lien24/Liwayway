@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class PlayerCombat : MonoBehaviour
 
     public Canvas healthBarCanvas;   // Reference to the Canvas containing the health bar UI
 
+    public float deathDelay = 3f;  // Time delay before restarting the scene
 
     void Start()
     {
@@ -108,6 +110,20 @@ public class PlayerCombat : MonoBehaviour
 
         // Hide the health bar canvas
         healthBarCanvas.enabled = false;  // Disable the health bar UI
+
+        //SceneManager.LoadScene(2);
+
+        // Start the coroutine to delay scene loading
+        StartCoroutine(LoadRetrySceneWithDelay());
+    }
+
+    // Coroutine to delay scene loading
+    IEnumerator LoadRetrySceneWithDelay()
+    {
+        yield return new WaitForSeconds(deathDelay);  // Wait for the specified delay
+
+        // Load the retry scene (or replace 2 with the actual retry scene index)
+        SceneManager.LoadScene(2);
     }
 
     private void OnDrawGizmosSelected()
